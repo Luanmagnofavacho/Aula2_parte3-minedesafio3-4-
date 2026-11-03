@@ -1,0 +1,27 @@
+desafio3
+#include <stdio.h>
+
+int main() {
+    int contador = 0;
+
+    contador++;
+    contador++;
+    contador++;
+
+    printf("Contador final: %d\n", contador);
+
+    return 0;
+}
+desafio4
+#include <stdio.h>
+
+int main() {
+    double valor = 8.75;
+
+    int numero = valor;
+
+    printf("Valor original: %.2lf\n", valor);
+    printf("Valor convertido: %d\n", numero);
+
+    return 0;
+}
